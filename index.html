@@ -23,6 +23,8 @@
             font-family: 'Roboto';
             font-family: 'Roboto Mono', monospace;
             font-size: 20px;
+            margin-left:20px;
+            margin-right:20px;
         }
         img{
             display: block;
@@ -35,14 +37,28 @@
             margin-top: 10px;
             font-size: 15px;
         }
+        
+        #cowboy,#bich{
+            width: 400px;
+        }
 
-        @media only screen and (min-width: 720px) and (max-width: 1023px) { 
+
+
+        @media only screen and  (max-width: 1023px) { 
             p{font-size: 40px;}
             .grey{font-size: 30px;}
             h1{
                 font-size: 60px;
                 margin-top: 80%;
             }
+
+            #cowboy,#bich{
+            width: auto;
+        }
+
+        #leg-up{
+            width:600px
+        }
 
         }
 
@@ -55,11 +71,11 @@
 <p>happy b-day to my lovely sista</p>
 <img src="bday-cat.jpg">
 <p>wish u all the best,</p>
-<img src="cowboy-cat-with-flowers.jpg">
+<img id='cowboy' src="cowboy-cat-with-flowers.jpg">
 <p>bich.</p>
-<img src="bich.jpg">
+<img id='bich' src="bich.jpg">
 <p>but especially...</p>
-<img src="cat-leg-up.jpg">
+<img id='leg-up' src="cat-leg-up.jpg">
 <p>many kisses</p>
 <img src="kissies.jpg">
 <p>many huggies</p>
