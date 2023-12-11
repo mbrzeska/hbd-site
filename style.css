@@ -83,10 +83,7 @@ button:hover{
     width:600px
 }
 button{
-    transform: scale(2.5);
+    font-size: 60px;
 }
 
-button:hover{
-    transform: scale(2.5);
-}
 }
