@@ -82,5 +82,11 @@ button:hover{
 #leg-up{
     width:600px
 }
+button{
+    transform: scale(2.5);
+}
 
+button:hover{
+    transform: scale(2.5);
+}
 }
